@@ -1,0 +1,56 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    /*
+    FONT FAMILY
+
+    @font-face {
+		font-family: Roboto;
+		font-weight: 400;
+		src: url(../fonts/Roboto-Regular.ttf) format('ttf');
+	}
+
+	@font-face {
+		font-family: Roboto;
+		font-weight: 500;
+		src: url(../fonts/Roboto-Medium.ttf) format('ttf');
+	}
+
+	@font-face {
+		font-family: Roboto;
+		font-weight: 700;
+		src: url(../fonts/Roboto-Bold.ttf) format('ttf');
+	}
+    */
+
+    /*
+    CUSTOM SCROLLBAR 
+
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #f0f0f0;
+	}
+
+	::-webkit-scrollbar-thumb {
+		@apply bg-gray-500 transition-all;
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		@apply bg-gray-600;
+	}
+
+    */
+    /*
+    GRAY SELECTION
+
+	::selection {
+		background: rgba(0, 0, 0, 0.33);
+	}
+    */
+}
